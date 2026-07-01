@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "chmod +x ./node_modules/.bin/tailwindcss && npm run build",
   "outputDirectory": "src",
   "rewrites": [
     { "source": "/images/:path*", "destination": "/images/:path*" },
