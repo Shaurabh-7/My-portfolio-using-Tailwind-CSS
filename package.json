@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./src/input.css -o ./src/output.css --minify"
   },
   "keywords": [],
   "author": "",
