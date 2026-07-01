@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "src",
+  "rewrites": [
+    { "source": "/images/:path*", "destination": "/images/:path*" },
+    { "source": "/app.js", "destination": "/app.js" }
+  ]
+}
